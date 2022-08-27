@@ -1,0 +1,42 @@
+/*  Body Setup */
+ body {
+ display: flex;
+  align-items: center;
+  justify-content: center; 
+  background-color: lightgray;
+}
+
+.header{
+  text-align: center;
+}
+
+input[type="submit"] {
+width: 6em;
+height: 4.5em;
+}
+
+
+
+/*  Text input */
+.TaskText {
+  border: 0 none;
+  width: 30em;
+  height: 3em;
+  text-align: left; 
+  font-size: 1.2rem;
+}
+
+input[type="checkbox"] {
+  border: 0 none;
+  width: 1.5em;
+  height: 1.5em;
+}
+
+/*  Every other list item */
+li:nth-child(2n) {
+  background-color: orange;
+}
+/*  To remove style from list */
+li {
+  list-style: none;
+}
